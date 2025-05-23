@@ -135,7 +135,7 @@ result = evaluate_with_replicates(
     dataset=mock_dataset,
     metrics=[faithfulness],
     llm=evaluator_llm,
-    num_replicates=3
+    num_replicates=30
 )
 
 pprint.pprint(result)
